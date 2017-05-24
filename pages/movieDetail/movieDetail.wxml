@@ -1,0 +1,20 @@
+<!--pages/movieDetail/movieDetail.wxml-->
+<import src="../../wxParse/wxParse.wxml"/>
+<view>
+
+
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+  <block wx:for="{{imgUrls}}" wx:for-item="item" wx:key="{{index}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="100%" height="600" mode='{{item.mode}}'/>
+    </swiper-item>
+  </block>
+</swiper>
+<text class="title">· 《{{movieName}}》·</text>
+<text>{{movie.title}}</text>
+<view class='line'></view>
+<text class="author">文/{{movie.author_list[0].user_name}}</text>
+ <view class="article"><template is="wxParse" data="{{wxParseData:article.nodes}}"/></view>
+
+</view>

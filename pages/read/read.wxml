@@ -1,0 +1,12 @@
+<!--pages/read/read.wxml-->
+<view class='container'>
+<view class="one" wx:for="{{list}}" wx:key="{{index}}" bindtap="detail" data-id="{{item.item_id}}">
+<text class='cate'>-阅读-</text>
+    <test class="subTitle">{{item.subtitle}}</test>
+    <test class="title">{{item.title}}</test>
+    <text class="author">文 / {{item.author.user_name}}</text>
+    <image src="{{item.img_url}}"></image>
+    <text class='forward'>{{item.forward}}</text> 
+    <text class='like'>{{item.like_count}}</text>
+</view>
+</view>

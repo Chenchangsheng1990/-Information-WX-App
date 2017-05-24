@@ -1,0 +1,12 @@
+
+<import src="../../wxParse/wxParse.wxml"/>
+<view class='container'>
+<image class='cover' src="{{content.cover}}"></image>
+<text class='title'>{{content.title}}</text>
+<text>{{content.author.user_name}}</text>
+<text>{{content.album}}</text>
+<text>{{content.story_title}}</text>
+<text>{{content.author_list[0].user_name}}</text>
+<view></view>
+ <view class="article"><template is="wxParse" data="{{wxParseData:story.nodes}}"/></view>
+ </view>

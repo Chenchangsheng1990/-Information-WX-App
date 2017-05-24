@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='one noTop' >
+    <text class='date'>{{first.date}}</text>
+    <text class='climate'>{{first.climate}},{{first.city_name}}</text>
+    <image src="{{list[0].img_url}}"></image>
+    <text class='font12'>{{list[0].title}} | {{list[0].words_info}}</text>
+    <text class='forward'>{{list[0].forward}}</text>
+    <view class='footer'>
+      <text>小记</text>
+      <text>{{list[0].like_count}}</text>
+    </view>
+   </view>   
+      <view wx:if="{{index>0}}" class='one' wx:for='{{list}}' wx:key="{{index}}" bindtap='detail' data-data="{{list[index]}}">
+    <text class='title'>-{{item.title}}-</text>
+    <text class='author'>文/{{item.author.user_name}}</text>
+    <image src="{{item.img_url}}"></image>
+    <text class="forward">{{item.forward}}</text>
+  </view>
+</view>
+  
+  
+  
+  <!--<view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>-->
+

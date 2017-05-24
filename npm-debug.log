@@ -1,0 +1,30 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\qianfeng\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   '--userconfig=C:\\Users\\qianfeng\\.cnpmrc',
+1 verbose cli   '--disturl=https://npm.taobao.org/mirrors/node',
+1 verbose cli   '--registry=https://registry.npm.taobao.org',
+1 verbose cli   'init' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 verbose stack Error: kill ENOSYS
+4 verbose stack     at exports._errnoException (util.js:1022:11)
+4 verbose stack     at process.kill (internal/process.js:172:13)
+4 verbose stack     at process.listener (C:\Users\qianfeng\AppData\Roaming\npm\node_modules\cnpm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+4 verbose stack     at emitNone (events.js:91:20)
+4 verbose stack     at process.emit (events.js:185:7)
+4 verbose stack     at processEmit (C:\Users\qianfeng\AppData\Roaming\npm\node_modules\cnpm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+4 verbose stack     at processEmit (C:\Users\qianfeng\AppData\Roaming\npm\node_modules\cnpm\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+4 verbose stack     at Signal.wrap.onsignal (internal/process.js:199:44)
+5 verbose cwd E:\step3\wxApp
+6 error Windows_NT 6.1.7600
+7 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\qianfeng\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\npm\\bin\\npm-cli.js" "--userconfig=C:\\Users\\qianfeng\\.cnpmrc" "--disturl=https://npm.taobao.org/mirrors/node" "--registry=https://registry.npm.taobao.org" "init"
+8 error node v6.10.0
+9 error npm  v3.10.10
+10 error code ENOSYS
+11 error errno ENOSYS
+12 error syscall kill
+13 error kill ENOSYS
+14 error If you need help, you may report this error at:
+14 error     <https://github.com/npm/npm/issues>
+15 verbose exit [ 1, true ]

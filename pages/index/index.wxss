@@ -1,0 +1,44 @@
+/**index.wxss**/
+page{
+  font-size: 12px;
+}
+.noTop{
+  margin-top:0;
+  padding:1em 0;
+}
+.date{
+  color:#606060;
+}
+.climate{
+  color:#CACACA;
+}
+.font12{
+  color:#CACACA;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  background: #FBFBFB;
+  padding: 0 !important;
+}
+.container .one{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  margin-top: 1em;
+}
+.title{
+  font-size: 13px;
+  color:#ccc;
+  padding:1em;
+}
+.forward{
+  font-size: 13px;
+  text-indent: 2em;
+  padding: 0 2em;
+  line-height: 24px;
+  color: C9C9C9;
+  margin-top: 10px;
+  font-family: '微软雅黑';
+}

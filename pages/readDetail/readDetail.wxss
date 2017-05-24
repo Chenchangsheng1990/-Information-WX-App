@@ -1,0 +1,28 @@
+/* pages/readDetail/readDetail.wxss */
+
+page{
+    font-size: 12px;
+    font-family: '微软雅黑';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    font-weight: 600;
+    font-size: 14px;
+}
+.article{
+    font-size:13px;
+}
+.wxParse-inline{
+    width:320px;
+    padding:10px 0;
+    
+    line-height: 22px;
+}
+.wxParse-strong{
+    text-align:center;
+    text-indent: 0;
+    font-weight: 600;
+    font-size: 14px;
+}

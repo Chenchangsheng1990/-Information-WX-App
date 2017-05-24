@@ -1,0 +1,5 @@
+<!--pages/readDetail/readDetail.wxml-->
+<import src="../../wxParse/wxParse.wxml"/>
+<text class='title'>{{content.hp_title}}</text>
+<text class='author'>文/{{content.hp_author}}</text>
+<view class="article"><template is="wxParse" data="{{wxParseData:article.nodes}}"/></view>

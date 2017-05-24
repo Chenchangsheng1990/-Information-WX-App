@@ -1,0 +1,42 @@
+/* pages/movieDetail/movieDetail.wxss */
+@import "../../wxParse/wxParse.wxss";
+
+view{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "微软雅黑"
+}
+.swiper-item{
+    width: 100%;
+}
+swiper{
+    height: 220px;
+    width: 100%;
+}
+.slide-image{
+    width: 100%;
+    height: 100%;
+}
+.title{
+    font-size: 13px;
+    color: red;
+}
+.line{
+    height: 3px;
+    width: 4rem;
+    background:black;
+}
+.article{
+    font-size:13px;
+    line-height: 20px;
+    text-indent: 2em;
+}
+.wxParse-inline{
+    width:320px;
+    padding:10px 0;
+}
+.wxParse-strong{
+    text-align:center;
+    text-indent: 0;
+}

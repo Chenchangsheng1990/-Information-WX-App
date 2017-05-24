@@ -1,0 +1,40 @@
+/* pages/musicDetail/musicDetail.wxss */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    padding-top:0;
+}
+.title{
+    font-size: 13px;
+    color: red;
+}
+.line{
+    height: 3px;
+    width: 4rem;
+    background:black;
+}
+.article{
+    font-size:13px;
+    line-height: 20px;
+    text-indent: 2em;
+}
+.wxParse-inline{
+    width:320px;
+    padding:10px 0;
+}
+.wxParse-strong{
+    text-align:center;
+    text-indent: 0;
+}
+.cover{
+    border-radius: 50%;
+    margin-left:-35%;
+    margin-top:-35%;
+    align-self: flex-start;
+    width:320px;
+    height: 320px;
+    margin-bottom:3em;
+}

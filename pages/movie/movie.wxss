@@ -1,0 +1,58 @@
+/* pages/movie/movie.wxss */
+page{
+  background: #FBFBFB;
+  font-family: '微软雅黑'
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  padding:0;
+}
+.container .one{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1em;
+  width:100%;
+  background: white;
+  padding:1em 0;
+
+}
+.container .one:nth-child(1){
+  margin-top: 0;
+  padding-top: 1em;
+  
+}
+.title{
+  font-size: 20px;
+  font-weight: 600;
+  color:#3D3D3D;
+  padding:1em 0 0.5em 0.7em;
+  align-self: flex-start;
+}
+.forward{
+  font-size: 14px;
+  line-height: 25px;
+  color: #5B5B5B;
+  margin-top: 10px;
+  align-self: flex-start;
+  margin-left: 1em;
+}
+image{
+  width: 95%;
+  margin-top:0.8em;
+}
+.author{
+  align-self: flex-start;
+  font-size: 15px;
+  margin-left:1em;
+}
+.cate{
+  color:#999999;
+  font-size:13px;
+}
+.subtitle{
+  font-size: 14px;
+  align-self: flex-end;
+  margin-right: 1em;
+}

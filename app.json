@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/read/read",
+    "pages/music/music",
+    "pages/movie/movie",
+    "pages/readDetail/readDetail",
+    "pages/musicDetail/musicDetail",
+    "pages/movieDetail/movieDetail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#008dd6",
+    "navigationBarTitleText": "资讯",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true
+  },
+   "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "utils/img/index-not.png",
+      "selectedIconPath": "utils/img/index-selected.png"
+    }, {
+      "pagePath": "pages/read/read",
+      "text": "阅读",
+       "iconPath": "utils/img/read-not.png",
+      "selectedIconPath": "utils/img/read-selected.png"
+    }, {
+      "pagePath": "pages/music/music",
+      "text": "音乐",
+       "iconPath": "utils/img/music-no.png",
+      "selectedIconPath": "utils/img/music-selected.png"
+    },{
+      "pagePath": "pages/movie/movie",
+      "text": "影视",
+       "iconPath": "utils/img/movie-not.png",
+      "selectedIconPath": "utils/img/movie-selected.png"
+    }]
+  }
+}

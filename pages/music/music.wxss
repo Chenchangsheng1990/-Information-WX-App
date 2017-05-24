@@ -1,0 +1,72 @@
+/* pages/music/music.wxss */
+
+.music_wall{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+page{
+  background: #FBFBFB;
+  font-family: '微软雅黑'
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  padding:0;
+}
+.container .one:nth-child(1){
+  margin-top: 0;
+}
+.container .one{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em 0;
+  width:95%;
+  margin-top: 1em;
+  background: #fff;
+}
+.title{
+  font-size: 20px;
+  font-weight: 600;
+  color:#3D3D3D;
+  padding:1em 0 0.5em 0.7em;
+  align-self: flex-start;
+}
+.forward{
+  font-size: 15px;
+  margin-left:1em;
+  line-height: 25px;
+  color:#585858;
+  margin-top: 2em;
+  align-self: flex-start;
+}
+.author{
+  align-self: flex-start;
+  font-size: 15px;
+  margin-left:1em;
+  margin-bottom:1.5em;
+
+}
+.cate{
+  color:#999999;
+  font-size:13px;
+}
+.mystyle{
+  animation: mymove 5s infinite linear;
+}
+@keyframes mymove{
+  from {transform:rotate(0deg)}
+  to {transform: rotate(360deg)}
+}
+.like{
+  color:#999999;
+  font-size: 13px;
+  display: inline-block;
+  vertical-align: center;
+}
+.zan{
+  align-self: flex-end;
+  margin-right: 1em;
+  display: flex;
+}

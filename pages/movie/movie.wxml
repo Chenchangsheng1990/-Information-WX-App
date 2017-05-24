@@ -1,0 +1,14 @@
+<!--pages/movie/movie.wxml-->
+<view class="container">
+
+  <view class='one' wx:for='{{list}}' wx:key="{{index}}" bindtap="detail" data-data="{{item}}">
+  <text class='cate'>-影视-</text>
+  
+    <text class='title'>{{item.title}}</text>
+    <text class='author'>文 / {{item.author.user_name}}</text>
+    <image src="{{item.img_url}}"></image>
+    <text class="forward">{{item.forward}}</text>
+    <text class='subtitle'>—— 《{{item.subtitle}}》</text>
+  </view>
+
+</view>
